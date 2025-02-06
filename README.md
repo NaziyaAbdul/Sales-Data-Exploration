@@ -1,12 +1,14 @@
-## **Sales-Data-Exploration 📊💡**
+#### **Sales-Data-Exploration 📊💡**
 
 The project is designed to showcase how SQL can be used to derive actionable insights from large datasets. The SQL queries are structured to help identify patterns, correlations, and performance indicators, which can guide business decision-making.
 
-**Project Overview 📈:**
+
+## **Project Overview 📈:**
 
 This project analyzes a sales dataset (assessment_csv) to uncover key business insights. The analysis covers various dimensions such as customer demographics, transaction trends, and sales performance across different categories.
 
-**Files 📂:**
+
+## **Files 📂:**
 
 **Dataset:** assessment_csv - Contains sales data.
 
@@ -15,7 +17,8 @@ This project analyzes a sales dataset (assessment_csv) to uncover key business i
 **Insights:** insights.txt - Provides a detailed description of the SQL queries and the insights derived from them.
 
 
-**Key Features 🔑:**
+
+## **Key Features 🔑:**
 
 Sales Trends: Analysis of total and average sales, categorized by time period (monthly, yearly).
 
@@ -25,7 +28,8 @@ Product Performance: Breakdown of sales by product, and evaluation of the impact
 
 Operational Efficiency: Insights into shipping costs, delivery times, and return rates.
 
-**How to Use ⚙️:**
+
+## **How to Use ⚙️:**
 
 Clone this repository.
 
