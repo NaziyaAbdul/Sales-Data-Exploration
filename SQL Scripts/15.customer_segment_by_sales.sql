@@ -1,0 +1,26 @@
+SELECT
+  CASE
+    WHEN TotalSpend < 1000 THEN 'Less than 1000'
+    WHEN TotalSpend BETWEEN 1000 AND 5000 THEN '1000-5000'
+    WHEN TotalSpend BETWEEN 5001 AND 10000 THEN '5001-10000'
+    WHEN TotalSpend BETWEEN 10001 AND 25000 THEN '10001-25000'
+    WHEN TotalSpend BETWEEN 25001 AND 50000 THEN '25001-50000'
+    ELSE 'Greater than 50000'
+  END AS CustomerSpendCategory,
+  COUNT(DISTINCT CustomerID) AS CustomerCount,
+  FORMAT(SUM(TotalSpend), 'N2') AS TotalSales
+FROM (
+  SELECT CustomerID, SUM(TransactionAmount) AS TotalSpend
+  FROM sales_data
+  GROUP BY CustomerID
+) AS CustomerTotals
+GROUP BY 
+  CASE
+    WHEN TotalSpend < 1000 THEN 'Less than 1000'
+    WHEN TotalSpend BETWEEN 1000 AND 5000 THEN '1000-5000'
+    WHEN TotalSpend BETWEEN 5001 AND 10000 THEN '5001-10000'
+    WHEN TotalSpend BETWEEN 10001 AND 25000 THEN '10001-25000'
+    WHEN TotalSpend BETWEEN 25001 AND 50000 THEN '25001-50000'
+    ELSE 'Greater than 50000'
+  END
+ORDER BY TotalSales DESC;
