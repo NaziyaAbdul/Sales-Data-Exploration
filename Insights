@@ -1,1 +1,65 @@
+1. Total Sales
+Insight: Gives the overall revenue from all transactions, a crucial metric for assessing business performance.
 
+2. Average Transaction Amount
+Insight: Helps understand the typical spend per transaction, which can indicate purchasing behavior and help in product pricing strategies.
+
+3. Top 5 Selling Products by Total Sales
+Insight: Identifies the top-performing products, helping to focus marketing, stock management, and promotional efforts on these items.
+
+4. Sales by Payment Method
+Insight: Highlights the preferred payment methods of customers, guiding future decisions on payment options and integrations.
+
+5. Sales by Region
+Insight: Shows which regions contribute the most to sales, allowing businesses to tailor regional marketing and promotions.
+
+6. Sales by Store Type
+Insight: Helps compare the performance of online vs. physical stores, providing insights for resource allocation and channel focus.
+
+7. Sales by Age Group
+Insight: Reveals how different age groups contribute to sales, useful for targeted marketing and customizing product offerings.
+
+8. Sales by Gender
+Insight: Indicates gender-based spending trends, providing an opportunity to personalize product offerings and marketing campaigns.
+
+9. Impacts of Discounts on Sales
+Insight: Analyzes how discount percentages influence sales, helping to fine-tune promotional strategies and discount offerings.
+
+10. Sales for Non-Returned Products
+Insight: Measures sales of products that haven’t been returned, indicating customer satisfaction and product quality.
+
+11. Sales for Promotional Products
+Insight: Reflects how promotional products drive sales, offering insights into the effectiveness of current promotional strategies.
+
+12. Sales by Month
+Insight: Identifies seasonal sales patterns, helping in planning for high and low sales periods, as well as seasonal marketing campaigns.
+
+13. Sales by Year
+Insight: Provides a year-over-year comparison, showing growth trends or potential areas for improvement.
+
+14. Top Customers by Sales
+Insight: Pinpoints the highest-spending customers, allowing for better customer retention efforts and personalized outreach.
+
+15. Customer Segment by Sales
+Insight: Helps segment customers based on total spend, identifying high-value customers and potential upsell opportunities.
+
+16. Product Sales Distribution
+Insight: Shows which products contribute most to sales, assisting in product placement, stock management, and promotions.
+
+17. Sales vs. Returns
+Insight: Compares sales with return rates, highlighting issues with product quality or customer satisfaction and guiding returns policy adjustments.
+
+18. Sales by Loyalty Points
+Insight: Tracks how customers with loyalty points spend, helping optimize loyalty programs to drive more revenue.
+
+19. Sales by Feedback Score
+Insight: Assesses the correlation between feedback scores and sales, showing how customer satisfaction impacts purchasing decisions.
+
+20. Sales by Shipping Cost
+Insight: Identifies the impact of shipping costs on sales, showing if free or low-cost shipping drives higher sales.
+
+21. Sales by Delivery Time
+Insight: Reveals how delivery times affect purchasing behavior, helping optimize shipping and delivery strategies for better customer satisfaction.
+
+22. Sales by Customer Type (New vs Existing)
+Insight: This analysis distinguishes between new and returning customers and highlights how each group contributes to total sales. By understanding customer loyalty, businesses can tailor marketing strategies and retention efforts
